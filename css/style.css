@@ -1,0 +1,30 @@
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+.task {
+  max-width: 1000px;
+  margin: 0 auto 50px;
+  padding: 50px 50px;
+}
+.element {
+  width: 350px;
+  height: 220px;
+  padding: 15px 10px 20px;
+  margin-bottom: 30px;
+  border: dashed 2px #f00;
+  background-color: #0f0;
+}
+.block {
+  text-align: justify;
+}
+.html {
+  float: left;
+  margin: 0 20px 0px 0;
+}
+.html_css {
+  width: 20%;
+  float: right;
+  margin: 20px 0 10px 20px;
+}
